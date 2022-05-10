@@ -2,6 +2,7 @@
 EOS token, which allows every holder to earn interest just by holding it.
 
 It's based on standard eosio.token, so it has all the standard actions. In addition, it has `setstakespec` action which should be used after creating a token to specify configuration for the staking mechanism:
+
 * `stake_start_time` - the time when staking starts;
 * `minimum_coin_age` - minimum amount of days that has to pass before you can start earning;
 * `maximum_coin_age` - amount of days after which no more interest is earned;
